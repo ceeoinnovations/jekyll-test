@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <title>Jekyll Website</title>
+    <link rel="stylesheet" href={{ "assets/css/main.css" | relative_url }}>
+</head>
+<body> 
+    <div class="container">
+        <img src={{ "assets/images/logo_black.png" | relative_url }} class="logo">
+        <h1 class="title"> {{ page.title }} </h1>
+        <p class="subtitle"> {{ page.description }} </p>
+    </div>
+
+    {{ content }}
+
+    <footer>
+        <p>Bye</p>
+    </footer>
+</body>
+</html>

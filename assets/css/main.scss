@@ -1,0 +1,14 @@
+--- 
+# for jekyll
+---
+
+@import 'colors';
+@import 'typography';
+
+
+body {
+    font-family: $ff-s;
+    color: $clr-blue;
+    background: $background;
+    grid-template-columns: 
+}
