@@ -1,0 +1,9 @@
+I"%<p>This is some normal content. Phahaha. It works!</p>
+
+<h2 id="this-is-an-h2">this is an h2</h2>
+<p><a href="link test">link text</a> blah blah blah.</p>
+
+<p><img src="assets/images/logo_black.png" alt="an image" /></p>
+
+<p><img src="/assets/images/logo_black.png" alt="alt text here" /></p>
+:ET

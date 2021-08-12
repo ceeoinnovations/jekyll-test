@@ -1,7 +1,7 @@
 ---
-title: My home page
+title: My first post
 description: a description of the post
-layout: home
+layout: default
 ---
 
 This is some normal content. Phahaha. It works!
@@ -11,4 +11,4 @@ This is some normal content. Phahaha. It works!
 
 ![an image]( {{ "assets/images/logo_black.png" }} )
 
-## Recent blog post
+![alt text here]( {{ "assets/images/logo_black.png" | relative_url }} )
