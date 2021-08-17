@@ -1,0 +1,14 @@
+<div class="menu">
+    <div class="menu__toggle js-menu-toggle">
+        <div class="menu__toggle__icon"><span></span></div>
+    </div>
+    <div class="menu__wrap">
+        <ul class="menu__list">
+        {% for item in site.data.navigation %}
+            <li class="menu__list__item">
+                <a href="{{ item.link }}" class="menu__list__item__link" {% if page.url == "{{ item.link }}" %}class="current"{% endif %}>{{ item.name }}</a>
+            </li>
+        {% endfor %}
+        </ul>
+    </div>
+</div>

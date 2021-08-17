@@ -1,0 +1,61 @@
+I"*<!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
+<div class="image_text_overlay">
+  <p><img src="Backpack_for_SPIKE_Prime/backpack.png" alt="Backpack" class="small" /></p>
+  <h1 id="ai-for-spike-prime">AI for SPIKE Prime</h1>
+  <h2 id="implementation-of-ai-algorithms-on-spike-prime">Implementation of AI algorithms on SPIKE Prime.</h2>
+  <p>Backpacks are hardware extensions for SPIKE Prime. You can connect your SPIKE Prime to the internet using Pyboard Backpack, connect to a wide range of Grove Sensors using Grove Sensor Backpack and build machine vision projects using OpenMV Backpack. Explore all 6 backpacks we have built for SPIKE Prime.</p>
+</div>
+
+<!--document creates a grid of documentss--------------------->
+<div class="free_write">
+
+  <h3 id="morse-code-detector">Morse Code Detector</h3>
+  <p><img src="AIforSPIKEPrime/MorseCodeDetector/morsecodedetector.jpg" alt="Link to my pic" class="small" /></p>
+
+  <p>The robot uses machine learning to figure out, for the length you held down the button, whether it is equivalent do a dot or a dash in morse code! But what if it’s wrong? It has a built in feature to tell it that it’s wrong. This will make it guess more accurately for later presses!</p>
+
+  <p><a href="https://www.instructables.com/id/Backpack-1-OpenMV-Camera/" class="myButton">Instructables</a>
+<a href="https://github.com/ceeoinnovations/SPIKEPrimeBackpacks/tree/master/examples" class="myButton">Github</a></p>
+
+  <h3 id="backpack-2-grove-sensors">Backpack #2: Grove Sensors</h3>
+  <p><img src="Backpack_for_SPIKE_Prime/Backpack2.jpg" alt="Link to my pic" class="small" /></p>
+
+  <p>The Pyboard is the brain for this backpack. It allows you to connect Grove sensors to LEGO SPIKE Prime to easily.</p>
+
+  <p><a href="https://www.instructables.com/id/Backpack-2-Grove-Sensors/" class="myButton">Instructables</a>
+<a href="https://github.com/ceeoinnovations/SPIKEPrimeBackpacks/tree/master/examples" class="myButton">Github</a></p>
+
+  <h3 id="backpack-3-pyboard">Backpack #3: Pyboard</h3>
+  <p><img src="Backpack_for_SPIKE_Prime/Backpack3.jpg" alt="Link to my pic" class="small" /></p>
+
+  <p>A Pyboard Backpack lets you connect to the WiFi from SPIKE Prime and use all the functionality of a Pyboard. This will hugely widen the range of projects you can do using the SPIKE Prime Hub.</p>
+
+  <p><a href="https://www.instructables.com/id/Backpack-3-PyBoard/" class="myButton">Instructables</a>
+<a href="https://github.com/ceeoinnovations/SPIKEPrimeBackpacks/tree/master/examples" class="myButton">Github</a></p>
+
+  <h3 id="backpack-4-breadboard">Backpack #4: Breadboard</h3>
+  <p><img src="Backpack_for_SPIKE_Prime/Backpack4.jpg" alt="Link to my pic" class="small" /></p>
+
+  <p>This backpack allows you to connect your SPIKE Prime with LEDs, buttons, switches and joysticks to create prototypes to control SPIKE Prime.</p>
+
+  <p><a href="https://www.instructables.com/id/Backpack-4-Breadboard/" class="myButton">Instructables</a>
+<a href="https://github.com/ceeoinnovations/SPIKEPrimeBackpacks/tree/master/examples" class="myButton">Github</a></p>
+
+  <h3 id="backpack-5-microbit">Backpack #5: Micro:bit</h3>
+  <p><img src="Backpack_for_SPIKE_Prime/Backpack5.jpg" alt="Link to my pic" class="small" /></p>
+
+  <p>With the Micro:bit Backpack, you can connect a Micro:bit to LEGO SPIKE Prime. You can integrate all the capabilities of a Microbit to the SPIKE Prime. You can also communicate between two Microbits using radio communication.</p>
+
+  <p><a href="https://www.instructables.com/id/Backpack-5-Microbit" class="myButton">Instructables</a>
+<a href="https://github.com/ceeoinnovations/SPIKEPrimeBackpacks/tree/master/examples" class="myButton">Github</a></p>
+
+  <h3 id="backpack-6-universalconnector">Backpack #6: UniversalConnector</h3>
+  <p><img src="Backpack_for_SPIKE_Prime/Backpack6.jpg" alt="Link to my pic" class="small" /></p>
+
+  <p>The Universal Connector Backpack is basically a wired backpack that converts the SPIKE Prime connectors to generic male header pins. This backpack is super useful if you are planning to make your own backpacks for other micro-controllers.</p>
+
+  <p><a href="https://www.instructables.com/id/Backpack-6-Universal-Connector/" class="myButton">Instructables</a>
+<a href="https://github.com/ceeoinnovations/SPIKEPrimeBackpacks/tree/master/examples" class="myButton">Github</a></p>
+
+</div>
+:ET

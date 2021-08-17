@@ -1,6 +1,4 @@
 ---
-title: blog
-layout: default
+layout: blog
+title: Blog
 ---
-
-this is some generic content

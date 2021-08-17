@@ -1,0 +1,18 @@
+I"�<div class="free_write">
+  <h1 id="create-an-author-profile">Create an Author Profile</h1>
+  <ol>
+    <li>Navigate to the “_authors” folder with in the <a href="https://github.com/ceeoinnovations/ceeoinnovations.github.io">CEEO Innovations Github</a>.</li>
+    <li>Upload a headshot of your new author to the <a href="https://github.com/ceeoinnovations/ceeoinnovations.github.io/tree/gh-pages/_authors/profilepics">“profilepics”</a>.</li>
+    <li>Navigate out of the “profilepics” folder back into the “_authors” folder. Create a new file for your author titled FIRSTNAME-LASTNAME.md</li>
+    <li>Past the following into your file and fill out the correct information. Click commit and your author profile should be complete.</li>
+  </ol>
+
+  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+short_name: PUT FIRST NAME HERE
+name: PUT FULL NAME HERE
+position: PUT POSITION HERE
+image: PUT NAME OF PICTURE HERE
+---
+</code></pre></div>  </div>
+</div>
+:ET

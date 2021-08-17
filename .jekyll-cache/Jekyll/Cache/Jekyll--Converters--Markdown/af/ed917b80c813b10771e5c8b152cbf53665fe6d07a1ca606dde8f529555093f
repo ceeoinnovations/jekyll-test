@@ -1,0 +1,25 @@
+I"<div class="image_text_overlay">
+  <p><img src="SPIKE+AI/not exist yet" alt="testing" /></p>
+  <h1 id="students-playing-with-ai-activities">Students playing with AI activities</h1>
+  <h2 id="your-image-subtitle">YOUR IMAGE SUBTITLE</h2>
+  <p>Students are building their robots and discussing about the related AI concepts</p>
+</div>
+
+<h1 id="ai-for-spike">AI for SPIKE</h1>
+<h2 id="description">Description</h2>
+<!--FREE WRITE lets you write any markdown you want (include images, lists, titles, code,etc)
+               If something doesn't look how you expect on the page, try adding a linebreak after it--------------------->
+<div class="free_write">
+  <p>Living in a world surrounded by AI technologies, we believe that students should have a general sense on how it works. In this project, we explored the possibility of integrating AI on SPIKE. We created different activities for students to play and think. Through these activities, we would like to introduce basic AI concepts and algorithms like supervised learning, K nearest neighbor, etc.</p>
+</div>
+
+<!--document creates a grid of documentss--------------------->
+<h2 id="links-to-all-demo-videos">Links to all demo videos</h2>
+<div class="document">
+  <p><a href="SPIKE+AI/Demo Links.docx">doc</a>
+<!-- insert as many links here as you want to dynamically create a grid of pdfs--></p>
+</div>
+
+<h2 id="links-to-all-support-materials">Links to all support materials</h2>
+<p>Google Drive: <a href="https://drive.google.com/drive/folders/1LgktIDD6_xOmkDAtCi7NtupXIxNM2JPZ?usp=sharing">Drive Link</a></p>
+:ET

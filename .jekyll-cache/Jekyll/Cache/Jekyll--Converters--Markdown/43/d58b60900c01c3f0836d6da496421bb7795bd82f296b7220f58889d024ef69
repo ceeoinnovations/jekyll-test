@@ -1,0 +1,23 @@
+I"i<div class="image_text_overlay">
+
+  <p>![Smart Motors](<img src="SmartMotors/cover.jpg" alt="Smart_Motors" /></p>
+  <h1 id="smart-motors">Smart Motors</h1>
+  <h2 id="a-trainable-motor-for-storytelling">A trainable motor for storytelling</h2>
+  <p>Smart Motors aim to lower the barriers of entry into robotics. By lowering the cost and shifting the paradigm from programming a robot to training a robot we aim to make robotics accessible to beginners as well as for teachers who want to introduce robotics in their classrooms.</p>
+</div>
+
+<!--document creates a grid of documentss--------------------->
+<div class="free_write">
+  <p>In response to the challenge of how does one bring robotics into a classroom with limited computers/WiFi, we started to play around with the idea of a trainable motor.   What if, for $10, you could get a motor that can learn from you?  Can you combine that with cardboard, glue, and tape to build robots without needing a computer?  What if you had a computer, what further opportunities would that open up? We are exploring on how this might work in a local school, at scale.  In particular, we are thinking this could link nicely into the Novel Engineering work, allowing students to animate their inventions with a smart motor or a smart light or smart speaker.</p>
+
+  <p><img src="SmartMotors/image.jpg" alt="Smart Motors" /> <!-- This is how you can insert an image--></p>
+
+</div>
+
+<div class="video_text_overlay">
+  <p><a href="https://youtu.be/g_jaH1FCP5I">TITLE OF VIDEO</a></p>
+  <h1 id="smart-motor-prototype">Smart Motor Prototype</h1>
+  <h2 id="earlier-stages-of-smart-motor-prototype">Earlier stages of Smart Motor prototype</h2>
+  <p>We explore the technical possiblilities of Smart Motor in this video. We are using Seeeduino Xiao and Grove sensors. The code is written in Circuit Python, a python variant for microprocessors by Adafruit.</p>
+</div>
+:ET

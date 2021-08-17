@@ -1,214 +1,109 @@
 ---
 layout: default
+title: Home
 ---
 
-
-<div class="page-loader"></div>
-<div class="page">
-
-    <div class="page__content" data-page-title="Duet – A beautiful two-column Jekyll theme" data-cms-content-wrapper="/_layouts/default.html">
-
-        <section class="intro">
-
-<div class="wrap">
-
-    <h1>A beautiful, minimal two-column
-    portfolio theme built for Jekyll.</h1>
-    <p>Duet makes your work look simply awesome.</p>
-
-</div>
-
+<section class="intro">
+    <div class="wrap">
+        <h1>An online portal for sharing research and development projects, tools, and technologies being created at Tufts CEEO.</h1>
+        <p>Tufts Center for Engineering Education and Outreach</p>
+    </div>
 </section>
-
 <section class="portfolio">
-
-<div class="content-wrap portfolio-wrap" style="position: relative; height: 863.266px;">
-
-    
-
-    <div class="portfolio-item" style="position: absolute; left: 0px; top: 0px;">
-
-        <a class="portfolio-item__link" href="/project/bicycle-wall">
-
-            <div class="portfolio-item__image">
-                <img src="https://d1qmdf3vop2l07.cloudfront.net/chartreuse-kouprey.cloudvent.net/hash-store/18f67b73a1cf6147f0f116fdd1acd62e.jpg" alt="Bicycle Wall" data-cms-original-src="/images/demo/portrait-01.jpg">
+    <div class="content-wrap portfolio-wrap" style="position: relative; height: 863.266px;">
+        <!-- {% assign my_variable = 100 %} -->
+        <!-- {% assign projects = site.projects | sort: 'date' | reverse %} -->
+        {% for project in projects %}
+        {% if project.draft == false %}
+            <div class="portfolio-item" style="position: absolute; left: 0px; top: 0px;">
+                <a class="portfolio-item__link" href="{{ project.url }}">
+                    <div class="portfolio-item__image">
+                        <img src="{{ project.displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}" alt="{{ project.title }}">
+                    </div>
+                    <div class="portfolio-item__content">
+                        <div class="portfolio-item__info">
+                            <h2 class="portfolio-item__title">{{ project.title }}</h2>
+                            <p class="portfolio-item__subtitle">{{ project.description }}</p>
+                        </div>
+                    </div>
+                </a>
             </div>
-
-            <div class="portfolio-item__content">
-                <div class="portfolio-item__info">
-                    <h2 class="portfolio-item__title">Bicycle Wall</h2>
-                    <p class="portfolio-item__subtitle">Mural and illustration</p>
+        <!-- {% assign my_variable = my_variable  | plus: 7990 %} -->
+        {% endif %}
+        {% endfor %}
+        
+        <!-- <div class="portfolio-item" style="position: absolute; left: 0px; top: 0px;">
+            <a class="portfolio-item__link" href="/project/bicycle-wall">
+                <div class="portfolio-item__image">
+                    <img src="https://d1qmdf3vop2l07.cloudfront.net/chartreuse-kouprey.cloudvent.net/hash-store/18f67b73a1cf6147f0f116fdd1acd62e.jpg" alt="Bicycle Wall" data-cms-original-src="/images/demo/portrait-01.jpg">
                 </div>
-            </div>
-
-        </a>
-
-    </div>
-
-    
-
-    <div class="portfolio-item" style="position: absolute; left: 227px; top: 0px;">
-
-        <a class="portfolio-item__link" href="/project/triangle-man">
-
-            <div class="portfolio-item__image">
-                <img src="https://d1qmdf3vop2l07.cloudfront.net/chartreuse-kouprey.cloudvent.net/hash-store/479c9632d667fe10139d486a58022df0.jpg" alt="Triangle Man" data-cms-original-src="/images/demo/square-01.jpg">
-            </div>
-
-            <div class="portfolio-item__content">
-                <div class="portfolio-item__info">
-                    <h2 class="portfolio-item__title">Triangle Man</h2>
-                    <p class="portfolio-item__subtitle">Street art illustration</p>
+                <div class="portfolio-item__content">
+                    <div class="portfolio-item__info">
+                        <h2 class="portfolio-item__title">Bicycle Wall</h2>
+                        <p class="portfolio-item__subtitle">Mural and illustration</p>
+                    </div>
                 </div>
-            </div>
-
-        </a>
-
-    </div>
-
-    
-
-    <div class="portfolio-item" style="position: absolute; left: 227px; top: 227px;">
-
-        <a class="portfolio-item__link" href="/project/thirty-four">
-
-            <div class="portfolio-item__image">
-                <img src="https://d1qmdf3vop2l07.cloudfront.net/chartreuse-kouprey.cloudvent.net/hash-store/698d6ef56fdb6a6713dac6100828aca3.jpg" alt="Thirty Four" data-cms-original-src="/images/demo/landscape-05.jpg">
-            </div>
-
-            <div class="portfolio-item__content">
-                <div class="portfolio-item__info">
-                    <h2 class="portfolio-item__title">Thirty Four</h2>
-                    <p class="portfolio-item__subtitle">Paint and foliage</p>
+            </a>
+        </div>
+        <div class="portfolio-item" style="position: absolute; left: 227px; top: 0px;">
+            <a class="portfolio-item__link" href="/project/triangle-man">
+                <div class="portfolio-item__image">
+                    <img src="https://d1qmdf3vop2l07.cloudfront.net/chartreuse-kouprey.cloudvent.net/hash-store/479c9632d667fe10139d486a58022df0.jpg" alt="Triangle Man" data-cms-original-src="/images/demo/square-01.jpg">
                 </div>
-            </div>
-
-        </a>
-
-    </div>
-
-    
-
-    <div class="portfolio-item" style="position: absolute; left: 0px; top: 300px;">
-
-        <a class="portfolio-item__link" href="/project/colored-stripes">
-
-            <div class="portfolio-item__image">
-                <img src="https://d1qmdf3vop2l07.cloudfront.net/chartreuse-kouprey.cloudvent.net/hash-store/2adf40a99be457212d4420ecbdac601a.jpg" alt="Colored stripes" data-cms-original-src="/images/demo/square-02.jpg">
-            </div>
-
-            <div class="portfolio-item__content">
-                <div class="portfolio-item__info">
-                    <h2 class="portfolio-item__title">Colored stripes</h2>
-                    <p class="portfolio-item__subtitle">Wall painting</p>
+                <div class="portfolio-item__content">
+                    <div class="portfolio-item__info">
+                        <h2 class="portfolio-item__title">Triangle Man</h2>
+                        <p class="portfolio-item__subtitle">Street art illustration</p>
+                    </div>
                 </div>
-            </div>
-
-        </a>
-
-    </div>
-
-    
-
-    <div class="portfolio-item" style="position: absolute; left: 227px; top: 382px;">
-
-        <a class="portfolio-item__link" href="/project/block-patterns">
-
-            <div class="portfolio-item__image">
-                <img src="https://d1qmdf3vop2l07.cloudfront.net/chartreuse-kouprey.cloudvent.net/hash-store/61a862741a723623e1d00503d0398498.jpg" alt="Block Patterns" data-cms-original-src="/images/demo/portrait-05.jpg">
-            </div>
-
-            <div class="portfolio-item__content">
-                <div class="portfolio-item__info">
-                    <h2 class="portfolio-item__title">Block Patterns</h2>
-                    <p class="portfolio-item__subtitle">Geometric street art</p>
+            </a>
+        </div>
+        <div class="portfolio-item" style="position: absolute; left: 227px; top: 227px;">
+            <a class="portfolio-item__link" href="/project/thirty-four">
+                <div class="portfolio-item__image">
+                    <img src="https://d1qmdf3vop2l07.cloudfront.net/chartreuse-kouprey.cloudvent.net/hash-store/698d6ef56fdb6a6713dac6100828aca3.jpg" alt="Thirty Four" data-cms-original-src="/images/demo/landscape-05.jpg">
                 </div>
-            </div>
-
-        </a>
-
-    </div>
-
-    
-
-    <div class="portfolio-item" style="position: absolute; left: 0px; top: 527px;">
-
-        <a class="portfolio-item__link" href="/project/atlanta-made">
-
-            <div class="portfolio-item__image">
-                <img src="https://d1qmdf3vop2l07.cloudfront.net/chartreuse-kouprey.cloudvent.net/hash-store/fec2c6c5c817fc9b412e1a9fb1562a5d.jpg" alt="Atlanta Made" data-cms-original-src="/images/demo/portrait-02.jpg">
-            </div>
-
-            <div class="portfolio-item__content">
-                <div class="portfolio-item__info">
-                    <h2 class="portfolio-item__title">Atlanta Made</h2>
-                    <p class="portfolio-item__subtitle">Warehouse mural</p>
+                <div class="portfolio-item__content">
+                    <div class="portfolio-item__info">
+                        <h2 class="portfolio-item__title">Thirty Four</h2>
+                        <p class="portfolio-item__subtitle">Paint and foliage</p>
+                    </div>
                 </div>
-            </div>
-
-        </a>
-
-    </div>
-
-    
-
-    <div class="portfolio-item" style="position: absolute; left: 227px; top: 682px;">
-
-        <a class="portfolio-item__link" href="/project/coffee-cup">
-
-            <div class="portfolio-item__image">
-                <img src="https://d1qmdf3vop2l07.cloudfront.net/chartreuse-kouprey.cloudvent.net/hash-store/43bdb538a48a6179f177a108de24406b.jpg" alt="Coffee Cup" data-cms-original-src="/images/demo/landscape-03.jpg">
-            </div>
-
-            <div class="portfolio-item__content">
-                <div class="portfolio-item__info">
-                    <h2 class="portfolio-item__title">Coffee Cup</h2>
-                    <p class="portfolio-item__subtitle">Coffee art project</p>
+            </a>
+        </div>
+        <div class="portfolio-item" style="position: absolute; left: 0px; top: 300px;">
+            <a class="portfolio-item__link" href="/project/colored-stripes">
+                <div class="portfolio-item__image">
+                    <img src="https://d1qmdf3vop2l07.cloudfront.net/chartreuse-kouprey.cloudvent.net/hash-store/2adf40a99be457212d4420ecbdac601a.jpg" alt="Colored stripes" data-cms-original-src="/images/demo/square-02.jpg">
                 </div>
-            </div>
-
-        </a>
-
+                <div class="portfolio-item__content">
+                    <div class="portfolio-item__info">
+                        <h2 class="portfolio-item__title">Colored stripes</h2>
+                        <p class="portfolio-item__subtitle">Wall painting</p>
+                    </div>
+                </div>
+            </a>
+        </div> -->
+        
     </div>
-
-    
-
-</div>
-
 </section>
 
+<section class="post">
+    <div class="wrap">
+        <h1>Latest Posts</h1>
+        <ul>
+            {% for post in site.posts %}
+                <li>
+                    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                    {{ post.excerpt }}
+                </li>
+            {% endfor %}
+        </ul>
     </div>
+</section>
 
-</div>
-
-<!-- <div class="title-area">
-    <img src={{ "assets/images/logo_black.png" | relative_url }} class="logo">
-    <h1 class="title"> {{ page.title }} </h1>
-    <p class="subtitle"> {{ page.description }} </p>
-</div>
-
-<h2>Most recent post</h2>
-<ul class="myposts">
-    {% for post in site.posts limit:1 %}
-    <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        <span class="post__desc">
-            {{ post.description }}
-        </span>
-    </li>
-    {% endfor %}
-</ul>
-
-
-<section class="older-posts">
-    <h2>Older posts</h2>
-        {% for post in site.posts limit:3 offset:0 %}
-        <div class="blog-post">
-            <a  class="blog__title" href="{{ post.url }}">{{ post.title }}</a>
-            <p class="post__desc">
-                {{ post.description }}
-            </p>
-            <a class="blog__link" href="{{ post.url }}">Read more</a>
-        </div>
-        {% endfor %}
-</section> -->
+<section class="intro">
+    <div class="wrap">
+        {{content}}
+    </div>
+</section>

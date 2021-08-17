@@ -1,0 +1,37 @@
+I"�
+<!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
+<div class="image_text_overlay">
+
+  <p>![SNAPR](<img src="SNAPR/cover.jpg" alt="SNAPR" /></p>
+  <h1 id="snapr----snap-narrate-auto-post-and-reflect">SNAPR -  Snap, Narrate, Auto Post and Reflect</h1>
+
+  <p>SNAPR is a tool that lets students capture and populate their e-portfolios automatically. In making/engineering, there is an emphasis on the final product and the ‘in-between’ stages are often ignored. SNAPR helps students reflect on the ‘in-between’ stages and encourage them to share stories of the processes that led to the final product.</p>
+</div>
+
+<!--document creates a grid of documentss--------------------->
+<div class="free_write">
+
+  <p><img src="SNAPR/details.png" alt="SNAPR" /></p>
+
+  <p>SNAPR is a tool designed for a design-based research study based on the conjecture:</p>
+
+  <p><em>In a making activity, e-portfolios provide observable opportunities for students to reflect on intermediate steps in their making, while also providing observable evidence for facilitators to assess students’ learning.</em></p>
+
+  <p>We plan to explore the following research questions:</p>
+
+  <ol>
+    <li>What processes of making are evident in students’ e-portfolio?</li>
+    <li>How can SNAPR encourage student reflection in the processes of making?</li>
+    <li>How are students’ STEM literacies represented in the e-portfolio, and how does enacting those practices contribute to their evolving identity as an engineer or a maker?</li>
+  </ol>
+
+  <p>Similar to Canvas, there are various e-portfolio platforms that students can use to showcase their work. Unfortunately, most of them are designed in such a way that the users usually update the content only after their work is complete. Likewise, most people find it cumbersome to document their work, as they are working on a project. We think, opportunities for reflection on the ‘in-between’ stages are missing in the existing design of e-portfolios.</p>
+
+  <p>In order to minimize this limitation, we designed SNAPR which lets the students automatically populate their e-portfolios while they are working on their projects. The setup constitutes a camera, connected to the WiFi, which periodically takes snapshots of the student work and uploads the snapshots to the students’ e-portfolios. Once populated, the students can access the uploaded snapshots to choose which ones to keep on their e-portfolio, perhaps to tell a story of failure, or to highlight an ‘Aha’ moment, or to share an insight they had about how their learning evolved.</p>
+
+</div>
+
+<div class="document">
+  <p><a href="SNAPR/poster.pdf">Poster</a></p>
+</div>
+:ET

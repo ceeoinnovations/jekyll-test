@@ -1,0 +1,82 @@
+I"�<!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
+<div class="image_text_overlay">
+  <p>![Sample_Title](<img src="sample_folder/cover.jpg" alt="Sample_Title" /></p>
+
+  <h1 id="make-your-project-page">Make Your Project Page</h1>
+  <h2 id="tutorial-on-how-to-make-your-project-page">tutorial on how to make your project page</h2>
+
+  <p>This webpage is a guide on how to create a project page on  CEEOINNOVATIONS portal. Follow along the steps, love with your heart, use your head for everything else (Captain D)</p>
+
+</div>
+
+<!--document creates a grid of documentss--------------------->
+<div class="free_write">
+
+  <p>Hello friend,</p>
+
+  <p>Welcome to the journey!</p>
+
+  <p>First things first - Click on the Github link above (under the project name) to go the Github page. Find and <b>duplicate</b> the sample.markdown file. <b>Rename</b> it with suitable name. Create a folder with the same name (not necessary, but very important!!) inside <b>projects_assests folder</b>. Remember markdown file outside projects_assets folder, and project folder inside the projects_assets folder.</p>
+
+  <p>As soon as you do this your page should be created on ceeoinnovations.github.io which you can access by going to https://www.ceeoinnovations.github.io/projects/&lt;projectname&gt;.html</p>
+
+  <h2 id="lets-begin">Let’s begin</h2>
+
+  <p>Open the markdown file in your favorite text editor. (Caution!! Do not edit the sample file, edit the duplicate file!!)</p>
+
+  <p>What you see on the top between — and —  is the front matter. Carefully edit the tags. Items like legal, linker, linkname are optional. Use them according to need!</p>
+
+  <p>Here are things that you can use!</p>
+
+  <ol>
+    <li>title: Your project tile, this appears on the thumbnail and project page</li>
+    <li>description:  short description (about 15 words ), this appears on thumbnail</li>
+    <li>displayimg: folder_name/image_name.extension, for example MachineControlToolkit/cover.jpeg ,make sure the image is square</li>
+    <li>categories: [“DELETE CATEGORIES THAT DON’T APPLY”,”LabVIEW”, “CNC”, “Machine”, “SPIKE Prime” , “3D Printing”, “EV3/NXT”, “Robotics”, “Makerspaces”]</li>
+    <li>authors: [“author1”, “author2”] (you can have multiple authors)</li>
+    <li>featured: true/false (true if you want it to appear on the featured section, if you want it to feature you should get written consent from Chris)</li>
+    <li>date: 10-26-2020 Published date - this is how the projects are sorted in the All projects section. It has to be in the given format  , otherwise github gets angry!</li>
+    <li>linker: URL to the download/github/google site that you want to include in project page</li>
+    <li>linkname: Text that will act as a hyperlink to your linker’s link)</li>
+    <li>draft: true/false (false if you want to publish on the internet) {for preview go to https://ceeoinnovations.github.io/projects/<your_markdown_filename>.html}</your_markdown_filename></li>
+    <li>legal:  put your legal notice here.. if not delete the section</li>
+  </ol>
+
+  <h2 id="freewrite-section">free_write section</h2>
+
+  <p>There are different ways you can present your content. Depending on how you want to present you will want to put it in either free_write,  For example this text that you are seeing is in a free_write section. You can write text and put images in this section. I will show you what else is out there in later sections.
+Define heading with ## . It will put the text in the center with a large font.</p>
+
+  <h2 id="examples">Examples</h2>
+
+  <p>If you want two images side by side</p>
+
+  <p><img src="sample_folder/Image1.jpg" alt="Image1" class="left" /><img src="sample_folder/Image1.jpg" alt="Image1" class="right" /></p>
+
+  <p>ed condimentum. Praesent a metus vitae eros lacinia sollicitudin.</p>
+
+  <p>if you want an image in the center
+<img src="sample_folder/Image2.png" alt="Image3" /></p>
+
+  <p><em>Italics</em></p>
+
+  <p>sodales lacus ultricies quis. Nam egestas eget est nec sagittis.</p>
+
+  <h2 id="publications">Publications</h2>
+
+  <ol>
+    <li>Putting 1. creates a list of items</li>
+    <li>and organizes the text as a list</li>
+  </ol>
+</div>
+
+<div class="document">
+  <p><a href="MachineControlToolkit/GettingStarted.pdf">Getting Started</a>
+<a href="MachineControlToolkit/UARM.pdf">UARM SWIFT PRO EXAMPLES</a>
+<a href="MachineControlToolkit/CNC.pdf">CNC MACHINES EXAMPLES</a></p>
+</div>
+
+<div class="document">
+  <p><a href="MachineControlToolkit/article.pdf">Poster</a></p>
+</div>
+:ET

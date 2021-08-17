@@ -1,0 +1,32 @@
+I"�<div class="free_write">
+  <h1 id="create-a-launched-project">Create a “Launched” Project</h1>
+  <h2 id="adding-to-launched-slideshow">Adding to “Launched” Slideshow</h2>
+  <ol>
+    <li>Navigate to the “_data” folder with in the <a href="https://github.com/ceeoinnovations/ceeoinnovations.github.io">CEEO Innovations Github</a>.</li>
+    <li>Open the <strong><em>“products.yml”</em></strong> file and add a new element to the list (you can just copy paste one of the list elements and customize the values to match your information).</li>
+  </ol>
+
+  <p>A list item will look like the below. <em>** You can choose to either have a image or video for the slideshow. Put a link to the media form you want to include in the corresponding section. **</em></p>
+
+  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- title: LAUNCHED PROJECT TITLE
+  url: SITE URL
+  video: PUT EITHER VIDEO LINK HERE
+  img: OR AN IMAGE LINK HERE (leave other field blank)
+  description: ONE SENTENCE DESCRIPTION OF PROJECT
+</code></pre></div>  </div>
+
+  <h2 id="adding-to-navbar-launched-projects">Adding to Navbar “Launched Projects”</h2>
+  <ol>
+    <li>Navigate to the “_data” folder with in the <a href="https://github.com/ceeoinnovations/ceeoinnovations.github.io">CEEO Innovations Github</a>.</li>
+    <li>Open the <strong>“navigation.yml”</strong> file and add a new element to the <strong>sublinks</strong> list under “Launched Projects” (you can just copy paste one of the list elements and customize the values to match your information).</li>
+  </ol>
+
+  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- title: LAUNCHED PROJECT TITLE
+  url: SITE URL
+  video: PUT EITHER VIDEO LINK HERE OR AN IMAGE LINK BELOW (leave other field blank)
+  img:
+  description: ONE SENTENCE DESCRIPTION OF PROJECT
+</code></pre></div>  </div>
+
+</div>
+:ET

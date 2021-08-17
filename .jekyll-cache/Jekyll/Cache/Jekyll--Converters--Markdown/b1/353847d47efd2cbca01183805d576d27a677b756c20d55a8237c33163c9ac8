@@ -1,0 +1,17 @@
+I"$<!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
+<div class="image_text_overlay">
+  <p><img src="display_image_on_wio_LCD/WioLCD.jpg" alt="Wio LCD" /></p>
+  <h1 id="wio-lcd">Wio LCD</h1>
+  <p>Learn to display an image on Wio LCD</p>
+</div>
+
+<!--VIDEO_TEXT_OVERLAY creates a video with a text box over it--------------------->
+<div class="video_text_overlay">
+  <p><a href="display_image_on_wio_LCD/WioLCD.mp4">Wio LCD</a></p>
+  <h1 id="display-multiple-images-on-wio-lcd">Display multiple images on Wio LCD</h1>
+</div>
+
+<!--FREE WRITE lets you write any markdown you want (include images, lists, titles, code,etc)
+               If something doesn't look how you expect on the page, try adding a linebreak after it--------------------->
+<div class="free_write"></div>
+:ET

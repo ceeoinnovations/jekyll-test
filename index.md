@@ -1,14 +1,6 @@
 ---
-title: My home page
-description: a description of the post
 layout: home
+title: CEEO Innovations
 ---
 
-This is some normal content. Phahaha. It works!
-
-## this is an h2
-[link text](link test) blah blah blah.
-
 ![an image]( {{ "assets/images/logo_black.png" }} )
-
-## Recent blog post

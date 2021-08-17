@@ -1,0 +1,59 @@
+I"�	<div class="image_text_overlay">
+  <p><img src="paper-bots/headimagerobot.jpg" alt="Link to my pic" /></p>
+  <h2 id="an-inexpensive-option-for-engineering-education">An Inexpensive Option for Engineering Education</h2>
+  <h1 id="accessible-robotics">Accessible Robotics</h1>
+  <p>PaperBots provide a low cost method of
+creating educational robots for any age.</p>
+</div>
+
+<div class="free_write">
+  <h1 id="pull-up-man">Pull-up Man</h1>
+  <h2 id="a-mobile-system-for-creating-a-dynamic-fgure">A mobile system for creating a dynamic fgure</h2>
+  <p>Pull-up Man is a demonstration of rotational motion converted into linear motion.  It is a simple 2D cam action toy made from cardstock and brass fasteners.  A cam linkage on the back side converts the rotary motion of the crank to the linear motion of the man.  Here are the pieces that make up this kit:
+<img src="paper-bots/pull-up-pieces.jpeg" alt="Pull Up Man Pieces" /></p>
+  <h3 id="required-pieces">Required Pieces</h3>
+  <ul>
+    <li>4 arm segments</li>
+    <li>body segment</li>
+    <li>4 leg segments</li>
+    <li>16 pins
+ Students can customize/decorate the final product to personalize to their liking.</li>
+  </ul>
+
+  <blockquote>
+    <p>The pull up man is my favorite “PaperBots” project</p>
+
+    <p>-a Student</p>
+  </blockquote>
+
+  <h3 id="attach-motors-to-pull-up-man-using-this-simple-code">Attach motors to Pull-Up man using this simple code:</h3>
+
+  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>.void Pull_Up(int max_strength){
+     for (int i = 0; i &lt; max_strength; i++){
+          DoAPullUP();
+     }
+}
+
+</code></pre></div>  </div>
+  <p>Here is a photo of the final product:
+<img src="paper-bots/pullup-man-assembled.jpeg" alt="Link to my pic" /></p>
+
+</div>
+
+<div class="document">
+  <h1 id="paperbots-cutouts">PaperBots Cutouts</h1>
+  <p><a href="paper-bots/Pull-Up-Man-Lesson-Plan.pdf">Pull Up Man Lesson Plan</a>
+<a href="paper-bots/HexaBot-Lesson-Plan.pdf">HexaBot Lesson Plan</a>
+<a href="paper-bots/PUMan_Cutout.pdf">HexaBot Lesson Plan</a>
+<a href="https://www.paperbots.org/">PaperBots Site</a></p>
+</div>
+
+<div class="video_text_overlay">
+  <p><a href="https://youtu.be/uXMQn6dbxc4">Pull up man</a></p>
+  <h2 id="paperbots-robot">PaperBots Robot</h2>
+  <h1 id="rubber-band-car">Rubber Band Car</h1>
+  <p>This Rubber Band Car is made out of a single sheet of paper,
+4 styrofoam wheels, straw, some paperclips,
+and a rubberband.</p>
+</div>
+:ET
