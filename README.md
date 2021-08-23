@@ -1,6 +1,6 @@
 ## How Jekyll Site Works
 # Getting Started
-- Setup Jekyll with Ruby (Tutorial)[Jekyll official documents]
+- Setup Jekyll with Ruby [Tutorial](Jekyll official documents)
 - Run Jekyll
 - Learn about Minimal theme
 
