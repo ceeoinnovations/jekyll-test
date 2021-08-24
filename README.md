@@ -10,7 +10,7 @@
 - Includes
 
 # About This Website
-## Site Structure
+## Directory Structure
 .
 ├── 2020
 │   └── 04
