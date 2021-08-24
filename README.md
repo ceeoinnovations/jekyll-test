@@ -2,7 +2,6 @@
 ## Getting Started
 - Setup Jekyll with Ruby [Tutorial](Jekyll official documents)
 - Run Jekyll
-- Learn about Minimal theme
 
 ## Terminologies
 - Liquid
