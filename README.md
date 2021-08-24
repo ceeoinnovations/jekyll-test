@@ -11,6 +11,7 @@
 
 # About This Website
 ## Directory Structure
+- [Link](https://jekyllrb.com/docs/structure/)
 _.
 ├── _config.yml
 ├── _data
