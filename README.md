@@ -4,7 +4,7 @@
 - Run Jekyll
 - Learn about Minimal theme
 
-# Terminologies
+## Terminologies
 - Liquid
 - Frontmatter
 - Layouts
